@@ -34,7 +34,7 @@ class VotingApp:
         self.root = root
         self.blockchain = blockchain
         self.voter_ids = set()
-        self.vote_counts = {candidate: 0 for candidate in ["Nakshatra", "Rudra", "Thakur", "Pratham","Gurprit","Harsh"]}
+        self.vote_counts = {candidate: 0 for candidate in ["Modi", "Trump", "Putin", "Kim Jong","Harsh"]}
         self.valid_voter_ids = {f"V{i}" for i in range(1, 21)}
         self.root.title("Blockchain Voting System")
         self.root.geometry("800x600")
